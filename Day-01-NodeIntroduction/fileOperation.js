@@ -40,12 +40,12 @@ fs.appendFile("file2.txt", "\n New line added", (err) => {
 });
 
 //delete file
-fs.unlink("file1.txt", (err) => {
-    if (err) {
-        console.log("File not found");
-        return;
-    }
-    console.log("File deleted successfully");
-});
+// fs.unlink("file1.txt", (err) => {
+//     if (err) {
+//         console.log("File not found");
+//         return;
+//     }
+//     console.log("File deleted successfully");
+// });
 }
 module.exports=fileOperation;
